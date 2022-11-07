@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pokemon</title>
+    <link rel="stylesheet" href="assets/styles/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="menu">
+          <li>
+            <a href="#"
+              ><img src="assets/image/pokemon-logo.svg" class="logo-image"
+            /></a>
+          </li>
+          <li><a href="#definition">Apa Itu Pokemon?</a></li>
+          <li><a href="#lore">Asal Usul Pokemon</a></li>
+          <li><a href="#choose">Pilih Pokemon-mu</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div id="content">
+        <article id="definition">
+          <h2>Apa Itu Pokemon?</h2>
+          <img
+            src="assets/image/pokemon1.png"
+            class="featured-image"
+            alt="pokemon-world-image"
+          />
+          <p>
+            Pokemon adalah makhluk fiksi pada seri pokemon. Saat ini ada 923
+            spesies yang diketahui menghuni dunia Pokémon; namun, tersirat bahwa
+            ada lebih banyak lagi yang menunggu untuk ditemukan. Pokemon
+            memiliki kekuatan fantastis yang tidak ditunjukkan oleh kebanyakan
+            hewan nyata, seperti manipulasi elemen/aspek kehidupan, seperti
+            listrik atau api. Pokémon ditampilkan sebagai pengganti hewan di
+            dunia mereka.
+          </p>
+        </article>
+        <article id="lore">
+          <h2>Asal Usul Pokemon</h2>
+          <img
+            src="assets/image/pokemon2.png"
+            class="featured-image"
+            alt="lore-image"
+          />
+          <p>
+            Dikatakan dalam banyak legenda Sinnoh bahwa alam semesta, termasuk
+            dunia Pokémon, diciptakan oleh satu Pokémon, Arceus. Dalam
+            kekosongan kehampaan, satu Telur muncul, yang kemudian menetas
+            menjadi Arceus. Arceus menciptakan Dialga, Palkia, dan Giratina dan
+            memberikan Dialga dan Palkia kemampuan untuk mengontrol ruang dan
+            waktu. Giratina dibuang ke dimensi lain karena perilakunya.
+            Kemudian, selama awal pembentukan dunia, mungkin lebih cepat, Arceus
+            menciptakan Azelf, Uxie, dan Mesprit untuk menciptakan kemauan,
+            pengetahuan, dan emosi, masing-masing, atribut yang ada di semua
+            manusia modern dan Pokémon.
+          </p>
+
+          <p>
+            Setelah pembentukan wilayah Sinnoh, mereka menyelam ke dasar Danau
+            Valor, Danau Acuity, dan Danau Verity saat ini, masing-masing,
+            menjuluki istilah "penjaga danau." Juga di masa-masa awal ini, Mew
+            muncul di planet ini, berisi DNA setiap Pokémon. Ada banyak ilmuwan
+            yang percaya bahwa Mew adalah nenek moyang dari semua Pokémon.
+          </p>
+        </article>
+        <article id="choose">
+          <h2>Pilih Pokemon-mu</h2>
+          <select onchange="changePokemon(this)">
+            <option value="base">Base</option>
+            <option value="ev1">Evolution 1</option>
+            <option value="ev2">Evolution 2</option>
+          </select>
+          <section>
+            <h3 id="pkmn1-name">Charmander</h3>
+            <img
+              id="pkmn1-image"
+              src="assets/image/charmander.png"
+              class="pokemon-image"
+              alt="pokemon1-image"
+            />
+            <p id="pkmn1-desc">
+              Charmander adalah Pokémon reptil bipedal dengan tubuh oranye dan
+              mata biru. Bagian bawahnya dari dada ke bawah dan telapak kakinya
+              berwarna krem. Ia memiliki dua taring kecil yang terlihat di
+              rahang atasnya dan dua taring yang lebih kecil di rahang bawahnya.
+              Api menyala di ujung ekor ramping Pokémon ini dan telah berkobar
+              di sana sejak kelahiran Charmander. Nyala api dapat digunakan
+              sebagai indikasi kesehatan dan suasana hati Charmander, menyala
+              terang saat Pokemon kuat, lemah saat kelelahan, goyah saat
+              bahagia, dan menyala saat marah. Dikatakan bahwa Charmander mati
+              jika nyala apinya padam. Namun, jika Pokemon sehat, nyala api akan
+              terus menyala meskipun agak basah dan dikatakan mengepul saat
+              hujan.
+            </p>
+          </section>
+          <section>
+            <h3 id="pkmn2-name">Squirtle</h3>
+            <img
+              id="pkmn2-image"
+              src="assets/image/squirtle.png"
+              class="pokemon-image"
+              alt="pokemon2-image"
+            />
+            <p id="pkmn2-desc">
+              Squirtle adalah Pokémon reptil kecil yang menyerupai kura-kura
+              biru muda. Meskipun biasanya berjalan dengan dua kaki pendek, ia
+              juga dapat berjalan dengan empat kaki. Brawl. Ia memiliki mata
+              besar, keunguan atau kemerahan dan bibir atas yang sedikit
+              bengkok. Masing-masing tangan dan kakinya memiliki tiga jari
+              runcing. Ujung ekornya yang panjang melengkung ke dalam. Tubuhnya
+              terbungkus oleh cangkang keras yang terbentuk dan mengeras setelah
+              lahir. Cangkang ini berwarna coklat di bagian atas, kuning pucat
+              di bagian bawah, dan memiliki tonjolan putih tebal di antara kedua
+              bagiannya.
+            </p>
+          </section>
+          <section>
+            <h3 id="pkmn3-name">Bulbasaur</h3>
+            <img
+              id="pkmn3-image"
+              src="assets/image/bulbasaur.png"
+              class="pokemon-image"
+              alt="pokemon3-image"
+            />
+            <p id="pkmn3-desc">
+              Bulbasaur adalah Pokémon amfibi berkaki empat kecil yang memiliki
+              kulit biru-hijau dengan bercak lebih gelap. Ia memiliki mata merah
+              dengan pupil putih, runcing, struktur seperti telinga di atas
+              kepalanya, dan moncong pendek dan tumpul dengan mulut lebar.
+              Sepasang gigi kecil runcing terlihat di rahang atas saat mulutnya
+              terbuka. Masing-masing kakinya yang tebal berakhir dengan tiga
+              cakar yang tajam. Di punggung Bulbasaur ada bohlam tanaman hijau,
+              yang tumbuh dari biji yang ditanam di sana saat lahir. Bulbasaur
+              juga menyembunyikan dua tanaman merambat ramping seperti tentakel
+              dan memberinya energi melalui fotosintesis serta dari biji kaya
+              nutrisi yang terkandung di dalamnya.
+            </p>
+          </section>
+        </article>
+      </div>
+      <aside>
+        <article class="profile">
+          <header>
+            <h2>Biodata Diri</h2>
+            <figure>
+              <img src="assets/image/profile.jpg" />
+            </figure>
+          </header>
+          <section>
+            <table>
+              <tr>
+                <th>Nama</th>
+                <td>:</td>
+                <td>Yusuf Fakhri</td>
+              </tr>
+              <tr>
+                <th>Email</th>
+                <td>:</td>
+                <td>yusuf2101858@gmail.com</td>
+              </tr>
+            </table>
+          </section>
+        </article>
+      </aside>
+    </main>
+    <footer>
+      <p>
+        Pokémon &#169; 2002-2022 Pokémon. &#169; 1995-2022 Nintendo/Creatures
+        Inc./GAME FREAK inc. TM, &reg; and Pokémon character names are
+        trademarks of Nintendo.
+      </p>
+    </footer>
+    <script src="assets/javascript/pokemon.js"></script>
+  </body>
+</html>

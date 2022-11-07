@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: inline;
+}
+.menu {
+  display: flex;
+}
+.menu li {
+  text-align: center;
+}
+nav {
+  background-color: #dd5353;
+  padding: 5px;
+  top: 0;
+  position: sticky;
+}
+
+nav a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+nav a:hover {
+  font-weight: bold;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+}
+nav .icon {
+  display: none;
+}
+
+.logo-image {
+  max-height: 20px;
+  object-fit: cover;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#content {
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+aside {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.featured-image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.pokemon-image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: scale-down;
+  object-position: center;
+}
+
+.profile header {
+  text-align: center;
+}
+.profile img {
+  border-radius: 50%;
+  width: 200px;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+h2,
+h3 {
+  color: #b73e3e;
+}
+
+@media screen and (max-width: 1000px) {
+  main,
+  .menu {
+    flex-direction: column;
+  }
+}
